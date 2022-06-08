@@ -3,22 +3,35 @@
 
 body{
     background-color: hwb(180 40% 55%);
+    margin: 0;
+    padding: 0;
+    
+}
+#kokare5_navbar{
+    display:flex;
+    flex-direction: row;
+    background-color: hsl(220, 70%, 40%);
+    font-size: 2rem;
+}
+ul li{
+    list-style-type: none;
 }
 #flissilo{
-    width: 250px;
+    width: 15.625rem;
     height: 150px;
     background: linear-gradient(to right, hsl(0, 0%, 30%), hsl(0, 0%, 50%), hsl(0, 0%, 30%));
     clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
     position: relative;
-    left: 300px;
+    left: 12.5em;
     z-index: -0;
+    border: 0px;
 }
 #flissilo:hover{
     cursor: pointer;
     background: linear-gradient(to right, hsl(0, 0%, 50%), hsl(0, 0%, 70%), hsl(0, 0%, 50%));
 }
 #k5_matarskruv{
-    background-color: hsl(179, 19%, 50%);
+    background-color: hsl(0, 0%, 40%);
     width: 350px;
     height: 50px;
     z-index: 2;
@@ -28,7 +41,7 @@ body{
 }
 #k5_matarskruv:hover{
     cursor: pointer;
-    background-color: hsl(179, 19%, 70%);
+    background-color: hsl(0, 0%, 60%);
 }
 
 #lagtryck_kik{
@@ -47,7 +60,7 @@ body{
     border: solid hsl(0, 0%, 20%) 10px;
 }
 #basningskarl{
-    background-color: hsl(179, 19%, 50%);
+    background-color: hsl(0, 0%, 40%);
     width: 300px;
     height: 100px;
     position: relative;
@@ -57,5 +70,20 @@ body{
 }
 #basningskarl:hover{
     cursor: pointer;
-    background-color: hsl(179, 19%, 70%);
+    background-color: hsl(0, 0%, 60%);
+}
+#pinnhjul{
+    height: 150px;
+    width: 150px;
+    clip-path: polygon(70% 20%, 70% 0, 100% 0, 100% 100%, 70% 100%, 70% 70%, 60% 60%, 30% 60%, 30% 30%, 60% 30%);
+    position: relative;
+    top:300px;
+    right: 220px;
+    z-index: 5;
+    background-color: hsl(0, 0%, 50%);
+    border: 0px;
+}
+#pinnhjul:hover{
+    cursor: pointer;
+    background-color: hsl(0, 0%, 70%);
 }
